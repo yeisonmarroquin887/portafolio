@@ -19,6 +19,7 @@ img{
 }
 .briefcase{
     padding-top: 4em;
+    background-color: rgb(19, 19, 61);
 }
 .briefcase_header{
    display: flex;
@@ -29,13 +30,16 @@ img{
   height: 3em;
   position: fixed;
   transition: background-color .4s ease-in-out, padding 0.3s ease-in-out;
+  color: aliceblue;
+  background-color: rgba(9, 5, 58, 0.986);
 }
 .briefcase_header-active{
-    background-color: blanchedalmond;
+    background-color: rgba(253, 252, 250, 0.986);
     box-shadow:
     inset 0 -3em 3em rgba(0,0,0,0.1),
           0 0  0 1px blanchedalmond,
           0.3em 0.3em 1em rgba(0,0,0,0.3);
+          color: black;
 }
 .briefcase_hobbis{
     cursor: pointer;
@@ -56,9 +60,13 @@ img{
 .briefcase_name{
     text-align: center;
     font-size: 1.7em;
+    color: red;
 }
 .briefcase_knowledge{
     color: red;
+}
+.briefcase_text{
+    color: blanchedalmond;
 }
 .briefcase_leng{
     display: flex;
@@ -66,6 +74,17 @@ img{
     gap: 2em;
     justify-content: center;
     align-items: center;
+}
+.briefcase_li{
+    background-color: rgba(9, 5, 58, 0.986);
+    border-radius: 1em;
+    border: 2px solid wheat;
+    cursor: pointer;
+    transition: transform 250ms ease;
+}
+.briefcase_li:hover{
+    transform: scale(1.05);
+    border: 2px solid red;
 }
 .img{
    height: 4em;
@@ -75,15 +94,20 @@ img{
    justify-content: center;
    align-items: center;
    gap: 2em;
+   border-radius: 1em;
+   padding: .3em;
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .briefcase_person{
     background-color: rgb(6, 6, 53);
     color: blanchedalmond;
     border-radius: 1em;
     padding-bottom: 3em;
+    max-width: 400px;
+    margin: auto;
 }
 .briefcase_img{
     padding: 1em;
@@ -104,4 +128,29 @@ hr{
     padding: 0em 2em;
     font-family: 'Merienda', cursive;
     font-size: 13px;
+}
+.briefcase_proyect{
+    background-color: rgb(6, 6, 53);
+    padding: 2em;
+    font-family: 'Merienda', cursive;
+    margin-top: 2em;
+    border-radius: 1em;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.briefcase_proyect-text{
+    color: blanchedalmond;
+}
+.click{
+    text-align: center;
+    cursor: pointer;
+    color: red;
+    transition: transform 290ms ease;
+}
+.click:hover{
+    transform: scale(1.05);
 }
