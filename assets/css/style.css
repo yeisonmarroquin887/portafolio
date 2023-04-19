@@ -47,7 +47,6 @@ img{
     cursor: pointer;
 }
 .briefcase_profession{
-    background-color: aqua;
     max-width: 600px;
     margin: auto;
     padding: 2em;
@@ -79,4 +78,17 @@ img{
 }
 a{
   text-decoration: none;
+}
+.briefcase_person{
+    background-color: rgb(6, 6, 53);
+    color: blanchedalmond;
+    border-radius: 1em;
+}
+.briefcase_img{
+    padding: 1em;
+    border-radius: 2em;
+}
+.briefcase_info{
+    padding: 0em 2em;
+    font-family: 'Merienda', cursive;
 }
