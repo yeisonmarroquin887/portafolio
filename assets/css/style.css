@@ -88,7 +88,19 @@ a{
     padding: 1em;
     border-radius: 2em;
 }
+hr{
+    max-width: 400px;
+    border-radius: 45%;
+}
+.briefcase_tittle{
+    padding: 0.4em;
+    font-family: 'Merienda', cursive;
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
 .briefcase_info{
     padding: 0em 2em;
     font-family: 'Merienda', cursive;
+    font-size: 13px;
 }
