@@ -59,7 +59,7 @@ img{
     font-size: 1.7em;
 }
 .briefcase_knowledge{
-    padding-left: 1em;
+    color: red;
 }
 .briefcase_leng{
     display: flex;
