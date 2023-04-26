@@ -104,6 +104,25 @@ img{
 .run__show{
     right: 0;
 }
+.proye{
+    margin-top: 3em;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: var(--h-vie);
+    right: 100%;
+    padding: 1rem;
+    background-color: rgba(27, 21, 87, 0.993);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: right 0.4s;
+    
+    
+}
+.proye_show{
+    right: 0;
+}
 .briefcase_profession{
     max-width: 600px;
     margin: auto;
@@ -154,6 +173,7 @@ img{
 a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .briefcase_infor{
     border: 2px solid rgba(245, 222, 179, 0.959);
@@ -375,6 +395,25 @@ span{
     
 }
 .run__show{
+    right: 0;
+}
+.proye{
+    margin-top: 3em;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: var(--h-vie);
+    right: 100%;
+    padding: 1rem;
+    background-color: rgba(27, 21, 87, 0.993);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: right 0.4s;
+    
+    
+}
+.proye_show{
     right: 0;
 }
 
