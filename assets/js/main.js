@@ -7,3 +7,14 @@
             navbar.classList.remove("briefcase_header-active");
         }
     });
+
+    
+    const runHTML = document.querySelector(".briefcase_menu")
+    const bxcartHTML = document.querySelector(".menu")
+    
+    runHTML.addEventListener("click", function (){
+        bxcartHTML.classList.toggle("run__show")
+    })
+    
+    
+    
