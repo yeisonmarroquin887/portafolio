@@ -42,3 +42,10 @@
         ingre.classList.toggle("proye_show")
     })
 }
+{
+const ingresar = document.querySelector(".click")
+const ingre = document.querySelector(".proye")
+ ingresar.addEventListener("click", function() {
+    ingre.classList.toggle("proye_show")
+ })
+}
