@@ -8,6 +8,18 @@
         }
     });
 
+     {
+        const navbar = document.querySelector(".briefcase_header2");
+
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 45) {
+                navbar.classList.add("briefcase_header2-active");
+            } else {
+                navbar.classList.remove("briefcase_header2-active");
+            }
+        });
+    
+     }
     {
     const runHTML = document.querySelector(".briefcase_menu")
     const bxcartHTML = document.querySelector(".menu")
