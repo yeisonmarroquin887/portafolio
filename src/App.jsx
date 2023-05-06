@@ -8,11 +8,10 @@ import Proyects from './page/Proyects';
 function App() {
   const [Isloanding, setIsloanding] = useState(true)
   
-  useEffect(() => {
     setTimeout(() => {
       setIsloanding(false);
     }, 3050);
-  }, []);
+ 
   return (
     <div className='App'>
       {
